@@ -28,6 +28,9 @@ THE SOFTWARE.
 #include <boost/shared_ptr.hpp>
 #include "ParseMessage.h"
 
+#include <iostream>
+using namespace std;
+
 class ParseListener;
 
 /**

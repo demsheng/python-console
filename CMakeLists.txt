@@ -25,6 +25,7 @@ target_link_libraries( test_console ${QT_LIBRARIES} ${PYTHON_LIBRARIES} )
 add_executable( test_parse_helper test_parse_helper.cpp 
     ParseHelper.cpp
     ParseHelper.BlockParseState.cpp
+	ParseHelper.BracketParseState.cpp
     ParseHelper.ContinuationParseState.cpp
     ParseListener.cpp
     ParseMessage.cpp
@@ -33,6 +34,7 @@ add_executable( test_parse_helper test_parse_helper.cpp
 add_executable( test_cli test_cli.cpp 
     ParseHelper.cpp
     ParseHelper.BlockParseState.cpp
+	ParseHelper.BracketParseState.cpp
     ParseHelper.ContinuationParseState.cpp
     ParseListener.cpp
     ParseMessage.cpp
